@@ -9,4 +9,4 @@
 
 
 # About the project:
-    This is a simple blogs project for training purpose on React 
+   This is a simple blogs project for training purpose on React 
