@@ -1,13 +1,164 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  background-color: #f2e9e4;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+li{
+  display: inline-block;
+  margin-right: 70px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.slog{
+  color: #fb5607;
+  font-size: 50px;
+  margin-right: 1000px;
+}
+.navbar{
+  padding: 20px;
+}
+.line{
+  border-bottom: solid #fb5607 1px;
+  margin: 0px 100px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+li:hover{
+  color: #ff9f1c;
+}
+
+.active{
+  color: #ff9f1c;
+}
+
+.blog-item{
+  border: solid #fb5607 5px;
+  width: 20%;
+  margin: 30px auto;
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.blog-item h3{
+  color: #f8961e;
+}
+
+.blog-item a{
+  background-color: #fb5607;
+  padding: 10px;
+  color: #f2e9e4;
+  font-weight: bold;
+  width: 50%;
+  margin: auto;
+  border-radius: 20px; 
+}
+.blog-item a:hover{
+  cursor: pointer;
+  background-color: #dc2f02; 
+}
+.blogs{
+  text-align: center;
+  font-size: 40px;
+}
+
+.frm{
+  max-width: 500px;
+  margin: 50px auto;
+
+}
+
+.frm input{
+  display: block;
+  width: 100%;
+  margin: 20px auto;
+  padding: 30px;
+  border-radius: 20px;
+  border: solid 2px #fb5607;
+  font-size: 20px;
+}
+
+.frm input:focus{
+  outline:none;
+  border-radius: 20px;
+  border: solid 2px #ff9f1c;
+}
+
+.NewBlog h1{
+  text-align: center;
+}
+
+.frm button{
+  display: block;
+  max-width: 100px;
+  margin: 10px auto;
+  padding: 15px;
+  border-radius: 20px;
+  font-size: 15px;
+  background-color: #fb5607;
+  border: #fb5607 solid 1px;
+  color: #f2e9e4;
+  font-weight: bold;
+}
+
+.frm button:disabled{
+  display: block;
+  max-width: 100px;
+  margin: 10px auto;
+  padding: 15px;
+  border-radius: 20px;
+  font-size: 15px;
+  background-color: #fb5607;
+  border: #fb5607 solid 1px;
+  color: #f8961e;
+  font-weight: bold;
+}
+
+.frm button:hover{
+  background-color: #dc2f02;
+  cursor: pointer;
+}
+
+.detailed{
+  max-width: 1400px;
+  margin: 20px auto;  
+  text-align: center;
+}
+
+.detailed h1{
+  font-size: 50px;
+  margin-bottom: 60px;
+  color: #fb5607;
+}
+.detailed h3{
+  font-size: 25px;
+}
+
+.detailed p{
+  color: #fb5607;
+  font-size: 25px;
+  margin-top: 40px;
+  margin-right: 1000px;
+}
+
+.detailed button{
+  display: block;
+  max-width: 400px;
+  margin: 10px auto;
+  padding: 15px;
+  border-radius: 20px;
+  font-size: 20px;
+  background-color: #fb5607;
+  border: #fb5607 solid 1px;
+  color: #f2e9e4;
+  font-weight: bold;
+}
+.detailed button:hover{
+  background-color: #dc2f02;
+  cursor: pointer;
+}
+
+.center{
+  text-align: center;
 }
